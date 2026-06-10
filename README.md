@@ -110,5 +110,4 @@ Dashboard được thiết kế theo tư duy **Self-Service BI**, người dùng
 
 * **Cập nhật định kỳ:** Khi có dữ liệu mới, chỉ cần dán nối tiếp dữ liệu vào bảng Data Source gốc. Vào thẻ `Data` trên thanh Ribbon của Excel -> Chọn `Refresh All`. Hệ thống sẽ tự động tính toán lại toàn bộ dữ liệu nền và biểu đồ.
 * **Lưu ý kỹ thuật:** Các chỉ số YoY sử dụng nguyên lý so sánh chéo liên kết năm: 
-  $$\text{Percentage} = \frac{\text{Selected Yr} - \text{Previous Yr}}{\text{Previous Yr}}$$
   *Vui lòng không xóa các cột phụ tính toán ở phần Back-end Table để tránh gây ra lỗi hiển thị `#REF!`.*
